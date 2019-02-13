@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <p> <span th:text="${session.user.username}"></span>.</p>
+    <p> <span th:text="${session.user.password}"></span>.</p>
+    <p><span th:text="${session.user.birth}"></span>.</p>
+</div>
+
+
+<div th:object="${session.user}">
+    <p> <span th:text="*{username}"></span></p>
+    <p> <span th:text="*{password}"></span></p>
+    <p><span th:text="*{birth}"></span></p>
+</div>
+
+</body>
+</html>

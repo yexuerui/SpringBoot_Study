@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.run.mapper.DeptMapper">
+
+    <!--public Department selectDepartmentByDeptId(int deptId);-->
+    <select id="selectDepartmentByDeptId" resultType="com.run.model.Department">
+         select dept_id,dept_name from ta_dept where dept_id=#{deptId}
+    </select>
+
+</mapper>

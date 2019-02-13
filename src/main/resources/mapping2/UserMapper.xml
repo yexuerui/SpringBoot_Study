@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.run.mapper.UserMapper">
+
+    <!--sql片段-->
+    <sql id="user_commom_list">
+        user_name,gender,age,dept_id
+    </sql>
+    <!-- public int batchInsertUserInfo(User user);-->
+    <insert id="batchInsertUserInfo" keyProperty="id" useGeneratedKeys="true" >
+        insert into ta_user(user_name,gender,age,dept_id)
+        values (#{user.userName},#{user.gender},#{user.age},#{user.dept.deptId})
+    </insert>
+
+</mapper>

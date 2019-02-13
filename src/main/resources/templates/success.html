@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--suppress ThymeleafVariablesResolveInspection -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>这个是支付页面</h1>
+<!--普通字符串的整合-->
+<span th:text="${p.name + ' '+p.password}"></span>
+<br/>
+<!--if标签条件判断-->
+<div th:if="${p.password} == 123">
+    密码正确
+</div>
+<!--使用内置对象来进行计算-->
+<span th:text="${#calendars.format(p.birth, 'yyyy-MM-dd')}" ></span>
+<br/>
+<!--使用属性变量的方法-->
+<span th:text="${p.birth.getTime()}"></span>
+<br>
+<!--在session中使用获取数据-->
+<!-- * 一般用于th:Object取值，作用相当于${} -->
+<div th:object="${session.person}">
+    <p> <span th:text="*{name}"></span></p>
+    <p> <span th:text="*{password}"></span></p>
+    <p><span th:text="*{birth}"></span></p>
+</div>
+<!--超链接，参数使用(XXX=XXX)来代替-->
+<a th:href="@{/thymeleafTa(param=${session.person.name})}">Test A</a>
+<br/>
+<span th:text="#{login.name}"></span>
+<br/>
+<!--发送url到http://localhost:8080/success.html-->
+<a th:href="@{/thymeleaf(locale='zh_CN')}">中文</a>
+<a th:href="@{/thymeleaf(locale='en_US')}">English</a>
+<br/>
+<!--遍历操作-->
+<table>
+    <tr>
+        <th>序号</th>
+        <th>姓名</th>
+        <th>生日</th>
+        <th>性别</th>
+    </tr>
+    <tr  th:each="person,iterStat : ${list}">>
+        <!--获取序号-->
+        <td th:text="${iterStat.index}"></td>
+        <td th:text="${person.name}"></td>
+        <!--格式化字符串-->
+        <td th:text="${#calendars.format(person.birth,'yyyy-MM-dd')}"></td>
+        <!--三目运算符-->
+        <td th:text="${person.sex=='0'?'男':'女'}"></td>
+    </tr>
+</table>
+<div class="form-group col-lg-6">
+    <label >性别<span>&nbsp;Sex:</span></label>
+    <select th:field="${p.sex}" class="form-control" th:switch="${p.sex.toString()}"
+            data-required="true">
+        <option value="男" th:case="'0'" th:selected="selected" >男</option>
+        <option value="女" th:case="'1'" th:selected="selected" >女</option>
+        <option value="">请选择</option>
+    </select>
+</div>
+</body>
+</html>

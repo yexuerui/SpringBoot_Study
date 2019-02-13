@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<span th:text="${hello}" th:id="${hello}"></span>
+<br>
+
+<span th:text="${p.birth +'  '+ p.username+'  '+ p.password}" ></span>
+<br>
+
+<span th:text="${p.username.toUpperCase()}" ></span>
+
+
+<br>
+<span th:text="${p.birth.getTime()}" ></span>
+
+<br>
+<span th:text="${#calendars.format(p.birth, 'yyyy-MM-dd')}" ></span>
+
+
+<br>
+<span th:text="${#lists.size(list)}" ></span>
+<span th:text="${#strings.toUpperCase('yyyyyyyyyyyyy')}" ></span>
+
+
+
+
+<br>
+<a th:href="@{/test1(usrename='txjava',password=${p.password})}" >点击跳转</a>
+
+</body>
+
+
+<br>
+<span th:text="'sssss'"></span>
+
+<span th:text="23+5"></span>
+
+<span th:if="${p.gender} == true">男</span>
+<span th:if="${p.gender} == false">女</span>
+
+
+<span th:if="${p.gender == true}">男</span>
+<span th:if="${p.gender == false}">女</span>
+
+
+<span th:text="${p.gender == true}?'男':'女'"></span>
+
+
+<hr>
+<table>
+    <tr>
+        <th>索引号</th>
+        <th>用户名</th>
+        <th>密码</th>
+        <th>性别</th>
+        <th>生日</th>
+    </tr>
+
+    <tr th:each="p, iterStat : ${list}">
+        <td th:text="${iterStat.index}"></td>
+        <td th:text="${p.username}"></td>
+        <td th:text="${p.password}"></td>
+        <td th:text="${p.gender}? '男':'女'"></td>
+        <td th:text="${#calendars.format(p.birth, 'yyyy-MM-dd')}"></td>
+    </tr>
+</table>
+
+</body>
+</html>
