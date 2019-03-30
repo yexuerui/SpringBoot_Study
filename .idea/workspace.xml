@@ -5,7 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/generic/TestGenerics.java" line="39" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4941cb05-11da-4d57-b278-c429e6a2fc01" name="Default Changelist" comment="基础学习">
+    <list default="true" id="4941cb05-11da-4d57-b278-c429e6a2fc01" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/IODemo/BIODemo/FileDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="100">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -291,8 +291,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="380" />
-    <option name="y" value="50" />
+    <option name="x" value="-596" />
+    <option name="y" value="79" />
     <option name="width" value="1364" />
     <option name="height" value="726" />
   </component>
@@ -362,7 +362,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553958250819" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553958752576" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/springboot-seckill-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -582,7 +582,7 @@
       <workItem from="1553669459231" duration="17514000" />
       <workItem from="1553697868219" duration="774000" />
       <workItem from="1553738010652" duration="41146000" />
-      <workItem from="1553868962222" duration="9564000" />
+      <workItem from="1553868962222" duration="10059000" />
     </task>
     <task id="LOCAL-00001" summary="基础学习">
       <created>1553956558363</created>
@@ -591,7 +591,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553956558363</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="基础学习">
+      <created>1553958267672</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553958267672</updated>
+    </task>
+    <task id="LOCAL-00003" summary="基础学习">
+      <created>1553958401533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553958401534</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -627,7 +641,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="681197000" />
+    <option name="totallyTimeSpent" value="681692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -639,7 +653,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="380" y="50" width="1364" height="726" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50949365" side_tool="true" weight="0.18916914" />
       <window_info id="Designer" order="1" />
@@ -648,7 +662,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.5008183" side_tool="true" weight="0.21785174" />
       <window_info id="Web" order="6" sideWeight="0.502439" side_tool="true" weight="0.25945538" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.49050632" visible="true" weight="0.19287834" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49050632" visible="true" weight="0.19033675" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3114754" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" weight="0.4477848" />
@@ -660,7 +674,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32733223" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5045386" side_tool="true" weight="0.20655738" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.5045386" side_tool="true" visible="true" weight="0.2056962" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32094595" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
@@ -1227,8 +1241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/IODemo/BIODemo/FileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
