@@ -1,13 +1,13 @@
 package com.test;
 
 import com.App;
-import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.run.mapper.UserMapper;
 import com.run.model.Department;
 import com.run.model.User;
 import com.winter.mapper.EmployeeMapper;
 import com.winter.model.Employee;
+import com.yxr.service.EmployeeService;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,10 +19,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
-import javax.transaction.Transactional;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
 import java.util.UUID;
 
 
@@ -39,11 +37,31 @@ public class TestJdbc {
     @Resource
     UserMapper userMapper;
 
+    @Resource
+    EmployeeService service;
+
     @Autowired
     //若是不声明具体的子类，那么默认使用@Primary标记的，
     // 那么就会出现找不到反射类的异常
     @Qualifier("mySpringbootSqlSessionTemplate")
     SqlSessionTemplate mySpringbootSqlSessionTemplate;
+
+
+    @Test
+    public void TestTranscation() {
+        Employee employee = new Employee();
+        employee.setdId(123);
+        employee.setLastName("雪瑞");
+        int i = 0;
+//        try {
+        i = service.addEmployee(employee);
+//        } catch (Exception e) {
+//            System.out.println("---->返回失败。");
+//        }
+
+        System.out.println("插入：" + i);
+    }
+
 
     //    @Test
 //    public void contextLoads() {

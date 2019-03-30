@@ -15,9 +15,10 @@ public class GlobalExceptionHandler {
      */
     @ExceptionHandler(RuntimeException.class)
     @ResponseBody
-    public Map<String,Object> errorResult(){
+    public Map<String,Object> errorResult(RuntimeException ex){
         Map<String,Object> map=new HashMap<String,Object>();
         map.put("error","123error");
+        ex.printStackTrace();
         return map;
     }
 }

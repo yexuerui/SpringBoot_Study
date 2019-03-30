@@ -1,5 +1,6 @@
 package com.yxr.controller;
 
+import com.common.Log;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
@@ -31,5 +32,12 @@ public class HelloController<getDateFromPost> {
     public void getDateFromPost(@RequestParam("d") Date date){
         System.out.println("date : "+date);
     }
+
+    @RequestMapping("/testLog")
+    @Log(value = "记录的testLog的日志")
+    public String testLog(@RequestParam("names") String name){
+        return "names"+name;
+    }
+
 
 }
