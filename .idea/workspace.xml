@@ -5,170 +5,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/generic/TestGenerics.java" line="39" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4941cb05-11da-4d57-b278-c429e6a2fc01" name="Default Changelist" comment="SpringBoot+AOP日志处理">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/BinSearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/BinTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/GetTopN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Reflect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Test/TestBinSearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Test/TestBinTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Test/TestHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Test/TestJVM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Test/TestMyLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Test/TestNest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Test/TestSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Test/TestSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Test/TestTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/enums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/mySort/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/mySort/TestSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AbstractFactory/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AbstractFactory/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AbstractFactory/BananaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AbstractFactory/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AbstractFactory/FruitFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AbstractFactory/NorthApple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AbstractFactory/NorthBanana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AbstractFactory/NorthFruitFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AbstractFactory/SouthApple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AbstractFactory/SouthBanana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AbstractFactory/TestSimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Configuration/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Factory/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Factory/AppleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Factory/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Factory/BananaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Factory/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Factory/FruitFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Factory/NorthApple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Factory/TestSimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/IODemo/BIODemo/BioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/IODemo/BIODemo/FileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/IODemo/BIODemo/ObjectOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Interceptor/RedisSessionInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Interceptor/Son.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JsonSerializer/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JsonSerializer/FastJsonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JsonSerializer/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JsonSerializer/JacksonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JsonSerializer/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JsonSerializer/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JsonSerializer/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SerializableDemo/Foo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SerializableDemo/unSerializable/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SerializableDemo/unSerializable/Mother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SerializableDemo/unSerializable/Son.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SerializableDemo/unSerializable/TestSerializable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/AutoMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/GoodbyeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/GoodbyeMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/TestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/WelcomeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/builder/WelcomeMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/ControllerLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/generic/BoxDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/generic/JVMGeneric/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/generic/JVMGeneric/a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/generic/NaturalNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/generic/OrderPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/generic/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/generic/TestGenerics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/generic/TestPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newBuilder/BuilderClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newBuilder/InsuranceContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newBuilder/MQBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/protoType/DeepCloneUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/protoType/MyProtostuffUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/protoType/ProtostuffUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/protoType/TestClone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/protoType/TestMyProtostuff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/protoType/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reflexDemo/Entity/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reflexDemo/Entity/EBXO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/reflexDemo/ReflexTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/simpleFactory/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/simpleFactory/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/simpleFactory/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/simpleFactory/FruitFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/simpleFactory/TestSimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yxr/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yxr/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yxr/enums/RedisSessionResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yxr/enums/RespStatusCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yxr/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yxr/service/Impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yxr/service/RetryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/duizhang/CSVBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/duizhang/CsvParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/duizhang/MercBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/duizhang/MercCsvParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/duizhang/MyCsvToBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/duizhang/MyCsvToBeanBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/io/nio/TestBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/io/nio/TestChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/io/nio/TestNio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ms/ClassLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ms/Feb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ms/Sub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ms/TestSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/proxy/MyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/proxy/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/proxy/StudentDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/proxy/StudentDaoProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/proxy/TestProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/RetryServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/TestFinallly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/TestHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/TestSingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/TestString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhuangshi/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhuangshi/TestDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhuangshi/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhuangshi/VipDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="4941cb05-11da-4d57-b278-c429e6a2fc01" name="Default Changelist" comment="基础学习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yxr/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yxr/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yxr/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yxr/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yxr/myComponent/BoundedAndBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/future/BoundedAndBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yxr/myComponent/TestFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/future/TestFuture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yxr/service/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Configuration/MyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yxr/service/MyLocaleResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Configuration/MyLocaleResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/TestJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/TestJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/TestObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/TestObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/TxDemo10ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/TxDemo10ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yxr/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yxr/controller/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yxr/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yxr/exception/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yxr/myComponent/BoundedAndBuffer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yxr/myComponent/TestFuture$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yxr/myComponent/TestFuture$Chuju.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yxr/myComponent/TestFuture$Shicai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yxr/myComponent/TestFuture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yxr/service/MyConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yxr/service/MyConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yxr/service/MyLocaleResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/TestJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/TestJdbc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/TestObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/TestObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/TxDemo10ApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/TxDemo10ApplicationTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -218,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/IODemo/BIODemo/FileDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="425">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -452,9 +290,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="501" />
-    <option name="y" value="33" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="380" />
+    <option name="y" value="50" />
     <option name="width" value="1364" />
     <option name="height" value="726" />
   </component>
@@ -508,33 +346,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="IODemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mySpringBoothelloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySpringBoothelloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="IODemo" type="462c0819:PsiDirectoryNode" />
-              <item name="BIODemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mySpringBoothelloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySpringBoothelloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="SerializableDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mySpringBoothelloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySpringBoothelloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractFactory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -550,7 +362,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553955340498" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553957573132" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/springboot-seckill-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -562,11 +374,15 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\idea_source\mySpringBoothelloworld\src\main\resources\templates" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_source\mySpringBoothelloworld\src\main\java\com\AbstractFactory" />
+      <recent name="D:\idea_source\mySpringBoothelloworld\src\main\java\com\Factory" />
+      <recent name="D:\idea_source\mySpringBoothelloworld\src\main\java\Algorithm\future" />
+      <recent name="D:\idea_source\mySpringBoothelloworld\src\test\java\com\io\nio" />
+      <recent name="D:\idea_source\mySpringBoothelloworld\src\main\resources\mapping" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.JsonSerializer" />
@@ -575,12 +391,8 @@
       <recent name="com.proxy" />
       <recent name="com.Configuration" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea_source\mySpringBoothelloworld\src\main\java\com\AbstractFactory" />
-      <recent name="D:\idea_source\mySpringBoothelloworld\src\main\java\com\Factory" />
-      <recent name="D:\idea_source\mySpringBoothelloworld\src\main\java\Algorithm\future" />
-      <recent name="D:\idea_source\mySpringBoothelloworld\src\test\java\com\io\nio" />
-      <recent name="D:\idea_source\mySpringBoothelloworld\src\main\resources\mapping" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea_source\mySpringBoothelloworld\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -770,8 +582,16 @@
       <workItem from="1553669459231" duration="17514000" />
       <workItem from="1553697868219" duration="774000" />
       <workItem from="1553738010652" duration="41146000" />
-      <workItem from="1553868962222" duration="7650000" />
+      <workItem from="1553868962222" duration="9564000" />
     </task>
+    <task id="LOCAL-00001" summary="基础学习">
+      <created>1553956558363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956558363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -807,7 +627,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="679283000" />
+    <option name="totallyTimeSpent" value="681197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -819,7 +639,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="380" y="50" width="1364" height="726" extended-state="0" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50949365" side_tool="true" weight="0.18916914" />
       <window_info id="Designer" order="1" />
@@ -828,10 +648,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.5008183" side_tool="true" weight="0.21785174" />
       <window_info id="Web" order="6" sideWeight="0.502439" side_tool="true" weight="0.25945538" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.49050632" visible="true" weight="0.19033675" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.49050632" visible="true" weight="0.19287834" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3114754" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" visible="true" weight="0.4477848" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" weight="0.4477848" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34177214" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -896,7 +716,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SpringBoot+AOP日志处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot+AOP日志处理" />
+    <MESSAGE value="基础学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="基础学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1406,8 +1227,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/IODemo/BIODemo/FileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
