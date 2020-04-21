@@ -24,7 +24,7 @@ import org.springframework.context.annotation.Configuration;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
-import org.springframework.jdbc.datasource.DataSourceTransactionManager;
+//import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
 import javax.sql.DataSource;
 import java.util.Arrays;
@@ -108,11 +108,11 @@ public class MybatisDataSourceConfig {
     }
 
     //2、声明事务管理（注解方法）
-    @Bean("myBatisDataSourceTransactionManager")
-    @Primary
-    public DataSourceTransactionManager myBatisDataSourceTransactionManager(@Qualifier("mybatisDataSource") DataSource dataSource) {
-        return new DataSourceTransactionManager(dataSource);
-    }
+//    @Bean("myBatisDataSourceTransactionManager")
+//    @Primary
+//    public DataSourceTransactionManager myBatisDataSourceTransactionManager(@Qualifier("mybatisDataSource") DataSource dataSource) {
+//        return new DataSourceTransactionManager(dataSource);
+//    }
 
 
     /**
