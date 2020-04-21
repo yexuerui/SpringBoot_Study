@@ -9,11 +9,15 @@ public class TestJVM {
             this.name = name;
         }
     }
+//    public static void main(String[] args) {
+//        List<OOMObject> list = new ArrayList<>();
+//        while (true) {
+//            list.add(new OOMObject("小胖同学"));
+//        }
+//    }
+
     public static void main(String[] args) {
-        List<OOMObject> list = new ArrayList<>();
-        while (true) {
-            list.add(new OOMObject("小胖同学"));
-        }
+        System.out.println("hello git");
     }
 }
 
