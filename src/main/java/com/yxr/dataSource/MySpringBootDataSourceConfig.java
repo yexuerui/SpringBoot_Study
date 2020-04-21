@@ -20,7 +20,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
-import org.springframework.jdbc.datasource.DataSourceTransactionManager;
+//import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
 import javax.sql.DataSource;
 import java.util.Arrays;
@@ -87,10 +87,10 @@ public class MySpringBootDataSourceConfig {
     }
 
     //创建TransactionManager
-    @Bean("mySpringbootDataSourceTransactionManager")
-    public DataSourceTransactionManager myBatisDataSourceTransactionManager(@Qualifier("mySpringbootDataSource") DataSource dataSource) {
-        return new DataSourceTransactionManager(dataSource);
-    }
+//    @Bean("mySpringbootDataSourceTransactionManager")
+//    public DataSourceTransactionManager myBatisDataSourceTransactionManager(@Qualifier("mySpringbootDataSource") DataSource dataSource) {
+//        return new DataSourceTransactionManager(dataSource);
+//    }
 
     @Bean(name = "mySpringbootSqlSessionTemplate")
     public SqlSessionTemplate myBatisSqlSessionTemplate(@Qualifier("mySpringbootSqlSessionFactrory") SqlSessionFactory sqlSessionFactory) throws Exception {
