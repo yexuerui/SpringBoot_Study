@@ -22,4 +22,12 @@ public class Git1 {
     }
 
 
+    /**
+     * ttt
+     */
+    public void ttt(){
+
+    }
+
+
 }
