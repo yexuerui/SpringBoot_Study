@@ -25,8 +25,8 @@ public class Git1 {
     /**
      * ttt
      */
-    public void ttt(){
-
+    public void ttt() {
+        //我是一个小可爱
     }
 
 
