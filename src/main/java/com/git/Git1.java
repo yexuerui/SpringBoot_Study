@@ -16,6 +16,7 @@ public class Git1 {
 
     /**
      * 小A提交的代码
+     * 小A将提交的代码删除
      */
     public void tet() {
         String a = "jhahah1";
