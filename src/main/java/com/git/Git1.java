@@ -18,6 +18,7 @@ public class Git1 {
      * 小A提交的代码
      */
     public void tet() {
+        String a = "jhahah1";
 //我是一个小可爱
     }
 

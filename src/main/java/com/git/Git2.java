@@ -5,4 +5,8 @@ package com.git;
  * @Date 2020-04-22 12:26
  */
 public class Git2 {
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
