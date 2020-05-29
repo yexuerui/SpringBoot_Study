@@ -12,4 +12,9 @@ public class Git3 {
      *
      * 注释
      */
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
