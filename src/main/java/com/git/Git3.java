@@ -7,4 +7,9 @@ package com.git;
 public class Git3 {
     //name字段
     private String name;
+    /**
+     *
+     *
+     * 注释
+     */
 }
