@@ -12,7 +12,4 @@ public class Git2 {
     public String toString() {
         return super.toString();
     }
-
-    private int a;
-    private int b;
 }
