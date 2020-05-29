@@ -9,6 +9,12 @@ package com.git;
 public class Git1 {
 
 
+    @Override
+    public String toString() {
+        System.out.println("dev不会产生冲突的文件");
+        return null;
+    }
+
     public static void main(String[] args) {
         System.out.println("aaa");
         System.out.println("hello git!");
